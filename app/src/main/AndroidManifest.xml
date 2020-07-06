@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="code.Code.telas.telas.Imo.AddImoActivity"
+            android:name="code.Code.telas.Imo.AddImoActivity"
             android:label="AddImoActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
