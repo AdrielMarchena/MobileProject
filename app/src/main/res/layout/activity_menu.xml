@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideOverlay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbUsuLogado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario" />
+
+            <Button
+                android:id="@+id/btlistusu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btlistarTodos" />
+
+            <Button
+                android:id="@+id/btlistusuParam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btlistarParam" />
+
+            <Button
+                android:id="@+id/btnovousu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnovousu" />
+
+            <TextView
+                android:id="@+id/txtParaImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/controle_de_imovel" />
+
+            <Button
+                android:id="@+id/btnlistartodosimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listar_todos" />
+
+            <Button
+                android:id="@+id/btnlistarparametroimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listar_por_proprietario" />
+
+            <Button
+                android:id="@+id/btnnovoimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/novo_imovel" />
+
+            <TextView
+                android:id="@+id/txtParaInquilino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/controle_de_inquilino" />
+
+            <Button
+                android:id="@+id/btnlistartodosinq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listar_todos" />
+
+            <Button
+                android:id="@+id/btnlistarparametroinq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listar_por_nome" />
+
+            <Button
+                android:id="@+id/btnnovoinq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/novo_inquilino" />
+
+            <TextView
+                android:id="@+id/txtParaRelacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/controle_rela_o_imovel_inquilino" />
+
+            <Button
+                android:id="@+id/btnlistartodosrelacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listar_todos" />
+
+            <Button
+                android:id="@+id/btnlistarparametrorelacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listar_por_obs" />
+
+            <Button
+                android:id="@+id/btnnovorelacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nova_rela_o" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
