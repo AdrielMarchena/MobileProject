@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.LoginActivity"
+            android:name="code.Code.telas.LoginActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,83 +20,83 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Imo.AddImoActivity"
+            android:name="code.Code.telas.telas.Imo.AddImoActivity"
             android:label="AddImoActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Imo.ListImoActivity"
+            android:name="code.Code.telas.Imo.ListImoActivity"
             android:label="AddImoActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Imo.ListImoParamActivity"
+            android:name="code.Code.telas.Imo.ListImoParamActivity"
             android:label="AddImoParamActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Imo.UptImoActivity"
+            android:name="code.Code.telas.Imo.UptImoActivity"
             android:label="UptImoActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
 
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Inq.Inq.AddInqActivity"
+            android:name="code.Code.telas.Inq.Inq.AddInqActivity"
             android:label="AddInqActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Inq.Inq.ListInqActivity"
+            android:name="code.Code.telas.Inq.Inq.ListInqActivity"
             android:label="ListInqActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Inq.Inq.ListInqParamActivity"
+            android:name="code.Code.telas.Inq.Inq.ListInqParamActivity"
             android:label="ListInqParamActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.Inq.Inq.UptInqActivity"
+            android:name="code.Code.telas.Inq.Inq.UptInqActivity"
             android:label="UptInqActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
 
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.ImoInq.Imo.AddImoInqActivity"
+            android:name="code.Code.telas.ImoInq.Imo.AddImoInqActivity"
             android:label="AddImoInqActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.ImoInq.Imo.ListImoInqActivity"
+            android:name="code.Code.telas.ImoInq.Imo.ListImoInqActivity"
             android:label="AddImoInqActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.ImoInq.Imo.ListImoInqParamActivity"
+            android:name="code.Code.telas.ImoInq.Imo.ListImoInqParamActivity"
             android:label="ListImoInqParamActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.ImoInq.Imo.UptImoInqActivity"
+            android:name="code.Code.telas.ImoInq.Imo.UptImoInqActivity"
             android:label="UptImoInqActivity"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass" />
 
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.AddUsuActivity"
+            android:name="code.Code.telas.AddUsuActivity"
             android:label="@string/title_activity_add_usu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.MenuActivity"
+            android:name="code.Code.telas.MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.ListUsuActivity"
+            android:name="code.Code.telas.ListUsuActivity"
             android:label="@string/title_activity_list_usu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.UptUsuActivity"
+            android:name="code.Code.telas.UptUsuActivity"
             android:label="@string/title_activity_upt_usu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.profalexandre.Code.code.Code.telas.ListUsuParamActivity"
+            android:name="code.Code.telas.ListUsuParamActivity"
             android:label="@string/title_activity_list_usu_param"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
